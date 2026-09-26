@@ -66,7 +66,7 @@ More and more routine dev work — refactors, tests, migrations — gets run by 
 
 People aren't disappearing from the process — just shifting toward where a decision is needed, not just execution.
 ===
-IMAGE: codepathai-web-pricing.png
+IMAGE: codepathai-web-pricing.webp
 На сайте CodePathAI-Web доделал экран Pricing и Auth — тот самый осьминог-маскот (octo-mascot) теперь появляется и там, привыкаешь к нему быстро. Next.js 16 плюс Radix — сборка стала заметно приятнее, чем на предыдущей версии.
 
 Код: https://github.com/Tonxetyz/CodePathAI-Web
