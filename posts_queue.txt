@@ -1,39 +1,105 @@
 Дед рассказывал: в их деревне был колодец, в который однажды упала звезда — маленькая, тусклая, будто уставшая. С тех пор вода в нём как будто помнит имена. Бросишь монетку — через год кто-то в деревне вдруг вспоминает то, что давно забыл.
 
 Может, правда, может, просто вода в тех краях странная. Но к колодцу после заката до сих пор не ходят.
+
+EN:
+My grandfather used to tell it: a star fell into the village well once — small, dim, like it was tired. Ever since, the water seems to remember names. Drop a coin in, and a year later someone in the village suddenly recalls something they'd long forgotten.
+
+Might be true, might just be strange water. Either way, nobody goes near that well after sunset.
 ===
 Полтора часа сидел и просто разговаривал с моделью, объясняя, что хочу увидеть на экране. Ни строчки не написал руками — только правил формулировки, пока прототип не стал таким, как чувствовал.
 
 Вот что странно: результат получился лучше, чем если бы я сразу сел писать код. Потому что пока объясняешь — сам додумываешь детали, которые бы упустил.
+
+EN:
+Spent an hour and a half just talking to the model, explaining what I wanted on screen. Didn't write a single line by hand — just kept refining the wording until the prototype felt right.
+
+Here's the odd part: it came out better than if I'd just sat down and coded it myself. Explaining forces you to think through details you'd otherwise skip.
 ===
 Заметил на этой неделе: генерация видео и озвучки подтягивается к тому уровню, на котором текст был ещё год назад. Раньше по видео сразу было видно, что это ИИ — сейчас нужно приглядываться.
 
 Не знаю, радоваться или напрягаться, если честно. Скорее и то, и другое сразу.
+
+EN:
+Noticed this week: AI video and voice generation is catching up to where text generation was a year ago. Used to be obvious a video was AI-made — now you have to look twice.
+
+Not sure whether that's exciting or unsettling. Honestly, probably both at once.
 ===
+IMAGE: avatar.png
 Бот, который сейчас постит этот текст в канал — он же gemini-telegram-bot из портфолио. Написал ему отдельный скрипт post_to_channel.py, который берёт готовый текст и шлёт через Bot API одной командой.
 
 Забавно, когда пет-проект начинает работать сам на себя.
+
+Код: https://github.com/Tonxetyz/gemini-telegram-bot
+
+EN:
+The bot posting this very text is gemini-telegram-bot from my portfolio. Gave it a small post_to_channel.py script that takes finished text and sends it through the Bot API with one command.
+
+Funny when a pet project starts working on itself.
+
+Code: https://github.com/Tonxetyz/gemini-telegram-bot
 ===
 Старый сервер в подвале одного НИИ не выключали двадцать лет — говорили, будто там крутится расчёт, который нельзя прерывать. Когда его наконец вскрыли, внутри не нашли ничего, кроме бесконечного цикла, печатающего одну и ту же дату.
 
 Никто так и не понял, что должно было произойти в тот день. Дата, кстати, ещё не наступила.
+
+EN:
+An old server in some institute's basement ran unshut for twenty years — they said a calculation was running that couldn't be interrupted. When they finally opened it up, there was nothing inside but an infinite loop printing the same date over and over.
+
+Nobody ever figured out what was supposed to happen that day. That date, by the way, still hasn't come.
 ===
 Самое сложное в вайб-кодинге — не написать код, а вовремя остановиться и сказать "хватит, это уже рабочее решение". Тянет полировать бесконечно, хотя первая рабочая версия обычно и была той самой.
 
 Учусь останавливаться. Получается через раз.
+
+EN:
+The hardest part of vibe-coding isn't writing the code — it's stopping in time and saying "good enough, this works." You always want to keep polishing, even though the first working version usually already was the one.
+
+Working on stopping. Success rate: about fifty-fifty.
 ===
 Всё больше рутинных задач разработки — не пишет человек, а прогоняет агент: рефактор, тесты, миграции. Причём не потому что лень, а потому что агент правда быстрее и не устаёт на третьем часу одного и того же.
 
 Люди при этом не исчезают из процесса — просто смещаются туда, где нужно решение, а не исполнение.
+
+EN:
+More and more routine dev work — refactors, tests, migrations — gets run by an agent instead of a person. Not out of laziness, but because the agent genuinely doesn't get tired three hours into the same task.
+
+People aren't disappearing from the process — just shifting toward where a decision is needed, not just execution.
 ===
+IMAGE: codepathai-web-pricing.png
 На сайте CodePathAI-Web доделал экран Pricing и Auth — тот самый осьминог-маскот (octo-mascot) теперь появляется и там, привыкаешь к нему быстро. Next.js 16 плюс Radix — сборка стала заметно приятнее, чем на предыдущей версии.
+
+Код: https://github.com/Tonxetyz/CodePathAI-Web
+
+EN:
+Finished the Pricing and Auth screens on CodePathAI-Web — that same octopus mascot now shows up there too, and you get attached to it fast. Next.js 16 plus Radix made the build noticeably nicer than the previous setup.
+
+Code: https://github.com/Tonxetyz/CodePathAI-Web
 ===
 В одной лаборатории обучили модель на записях её же старых ответов — просто чтобы посмотреть, что будет. Через несколько поколений она начала отвечать на вопросы, которые ей не задавали, будто помнила разговор, которого не было.
 
 Проект закрыли тихо, без объяснений в отчёте.
+
+EN:
+One lab trained a model on transcripts of its own past answers, just to see what would happen. After a few generations, it started answering questions nobody had asked — as if it remembered a conversation that never took place.
+
+The project was quietly shut down, no explanation in the report.
 ===
+IMAGE: vibe-coding-hero.png
 Лендинг vibe-coding сам стал маленьким экспериментом в духе того, о чём рассказывает: CodeSimulator, который печатает код в реальном времени, и AISwitcher, где можно переключать модели — собирались через диалог с ИИ, а не построчным кодом.
 
 Получилось честно показать то, о чём текст на странице.
+
+Код: https://github.com/Tonxetyz/vibe-coding
+
+EN:
+The vibe-coding landing page became a small experiment in exactly what it talks about: CodeSimulator, which types out code in real time, and AISwitcher, for flipping between models — both built through dialogue with AI rather than line-by-line coding.
+
+Nice when the page can honestly show what it's telling you.
+
+Code: https://github.com/Tonxetyz/vibe-coding
 ===
 Кто-то в комментариях спросил, не боюсь ли я, что ИИ скоро заменит разработчиков. Если коротко — не разработчиков, а рутину внутри разработки. Тех, кто решает задачи, а не просто закрывает тикеты, заменить сложнее, чем кажется со стороны.
+
+EN:
+Someone in the comments asked if I'm worried AI will replace developers soon. Short answer: not developers — the routine inside development. Replacing people who actually solve problems, not just close tickets, is harder than it looks from the outside.
