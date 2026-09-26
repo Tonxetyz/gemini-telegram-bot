@@ -21,6 +21,15 @@ python bot.py
 
 `Procfile` настроен для Heroku-подобных платформ (`worker: python bot.py`).
 
+## Публикация в канал
+
+```bash
+export TELEGRAM_BOT_TOKEN=...
+python post_to_channel.py "текст поста"
+```
+
+Постит в канал `@Botnozx` (бот должен быть там админом с правом Post Messages).
+
 ## Тесты
 
 ```bash
